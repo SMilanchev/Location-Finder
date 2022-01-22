@@ -1,5 +1,12 @@
 {% extends 'common/base.html' %}
 
 {% block content %}
-{{ map|safe }}
+    <div class="container">
+        <div class="row mt-4">
+            <div class="col-md-10 offset-md-1" style="margin-bottom: 40px">
+                <h3>Map:</h3>
+                {{ map|safe }}
+            </div>
+        </div>
+    </div>
 {% endblock %}
