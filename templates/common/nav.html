@@ -12,9 +12,8 @@
                 </li>
             </ul>
 
-            <form class="d-flex" method="post">
+            <form class="d-flex" method="post" style="justify-content: center; align-items: center; display: flex; margin-right: 5px">
                 {% csrf_token %}
-{#                        <input class="form-control me-2" type="search" placeholder="Search" name="address" aria-label="Search">#}
                 {{ form }}
                 <button class="btn btn-success ml-2" type="submit">Search</button>
             </form>
